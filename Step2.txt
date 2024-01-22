@@ -1,0 +1,24 @@
+irb(main):005> name.chars.sort.join
+=> " HSaelnnortu"
+irb(main):006> name.reverse
+=> "naolS retnuH"
+irb(main):007> name.reverse.chars.sort.join
+=> " HSaelnnortu"
+irb(main):008* def reversealphaname(name)
+irb(main):009*   name1 = name.chars.sort.join
+irb(main):010*   name2 = name1.reverse
+irb(main):011> end
+=> :reversealphaname
+irb(main):012> reversealphaname
+(irb):8:in `reversealphaname': wrong number of arguments (given 0, expected 1) (ArgumentError)
+        from (irb):12:in `<main>'
+        from <internal:kernel>:187:in `loop'
+        from E:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/irb-1.11.0/exe/irb:9:in `<top (required)>'
+        from E:/Ruby33-x64/bin/irb:33:in `load'
+        from E:/Ruby33-x64/bin/irb:33:in `<main>'
+irb(main):013> reversealphaname(name)
+=> "utronnleaSH "
+irb(main):014> #https://learnxinyminutes.com/docs/ruby/
+=> nil
+irb(main):015> #https://www.tutorialspoint.com/ruby/ruby_quick_guide.htm
+=> nil

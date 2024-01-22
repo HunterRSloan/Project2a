@@ -1,0 +1,11 @@
+C:\Windows\system32>ruby -v
+ruby 3.3.0 (2023-12-25 revision 5124f9ac75) [x64-mingw-ucrt]
+C:\Windows\system32>irb
+irb(main):001> name = 'Hunter Sloan'
+=> "Hunter Sloan"
+irb(main):002> name
+=> "Hunter Sloan"
+irb(main):003> print name
+Hunter Sloan=> nil
+irb(main):004> Time.new
+=> 2024-01-22 16:01:09.3493357 -0500

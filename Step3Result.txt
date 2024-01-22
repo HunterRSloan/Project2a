@@ -1,0 +1,15 @@
+irb(main):041> main
+Welcome to the Number Guessing Game!
+Guess the number between 1 and 20: 1
+Too low. Try again.
+Guess the number between 1 and 20: 2
+Too low. Try again.
+Guess the number between 1 and 20: 3
+Too low. Try again.
+Guess the number between 1 and 20: 10
+Too low. Try again.
+Guess the number between 1 and 20: 15
+Too high. Try again.
+Guess the number between 1 and 20: 14
+Congratulation! Your guess is correct.
+=> nil
